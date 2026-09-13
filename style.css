@@ -1,0 +1,11 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #f0f4f8; }
+.card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 380px; text-align: center; }
+.search-box { display: flex; gap: 8px; margin: 1.5rem 0; }
+input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+button { padding: 10px 16px; background: #0066ff; color: white; border: none; border-radius: 6px; cursor: pointer; }
+button:hover { background: #0052cc; }
+.weather-info h3 { margin-bottom: 8px; }
+.weather-info p { margin: 4px 0; color: #555; }
+.error { color: #d9534f; margin-top: 10px; }
+.hidden { display: none; }
